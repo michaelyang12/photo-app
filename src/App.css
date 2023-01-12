@@ -1,0 +1,213 @@
+html {
+  background-color: rgb(36, 35, 40);
+}
+
+.container {
+  width: 100%;
+  color: white;
+}
+
+.header-bar {
+  background-color: black;
+}
+
+.tab {
+  margin: auto;
+  padding: 0.5em;
+}
+
+#logo {
+  font-family: 'Koulen', cursive;
+  font-size: x-large;
+  width: 100%;
+  text-align: center;
+  margin-left: 0em;
+}
+
+#photos-search {
+  width: 100%;
+  padding: 0;
+}
+
+#photos-search:focus {
+  border: none;
+  outline: none;
+}
+
+.searchbar {
+  margin: auto;
+  border: none;
+  outline: none;
+  height: 2.2em;
+  margin-left: -0.1em;
+  width: 100%;
+  background-color: rgb(222, 221, 221);
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Koulen', cursive;
+  font-size: large;
+}
+
+.searchbar:focus {
+  border: none;
+  outline: none;
+  background-color: rgb(255, 248, 248);
+}
+
+.header-bar-container {
+  width: 100%;
+  display: flex;
+  margin: auto;
+}
+
+#favorites {
+  font-family: 'Koulen', cursive;
+  font-size: x-large;
+  width: 100%;
+  text-align: center;
+}
+
+.selector-bar {
+  background-color: rgb(37, 37, 57);
+}
+
+.selector-container {
+  width: 70%;
+  display: flex;
+  margin: auto;
+}
+
+.selector-container .selection-unselected {
+  font-family: 'Koulen', cursive;
+  font-size: x-large;
+  width: 100%;
+  text-align: center;
+}
+
+.selector-container .selection-selected {
+  font-family: 'Koulen', cursive;
+  font-size: x-large;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(61, 61, 94);
+}
+
+.selector-container .selection-unselected:hover {
+  background-color: rgb(52, 52, 80);
+  cursor: pointer;
+}
+
+.pages-bar {
+  width: 100%;
+}
+
+.pages-container {
+  display: flex;
+  margin: auto;
+  width: 70%;
+}
+
+.page-selector {
+  font-family: 'Koulen', cursive;
+  margin: auto;
+  padding: 0.2em;
+}
+
+.page-number {
+  font-family: 'Koulen', cursive;
+  margin: auto;
+  padding: 0.2em;
+}
+
+.page-selector:hover {
+  color: rgb(212, 211, 211);
+  cursor: pointer;
+}
+
+.expand-module-hidden {
+  position: fixed;
+  visibility: hidden;
+  width: 100%;
+  height: 0px;
+}
+
+.expand-module-visible {
+  position: fixed;
+  visibility: visible;
+  top: 0em;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(800px);
+}
+
+#close-button {
+  position: relative;
+  margin-top: 1.25em;
+  margin-right: 1.25em;
+}
+
+#close-button:hover {
+  cursor: pointer;
+  color: rgb(203, 202, 202);
+}
+
+.expand-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.expand-container img {
+  margin: auto;
+  margin-top: 1em;
+  width: auto;
+  height: 87%;
+}
+
+.lower-bar {
+  width: 100%;
+  margin-top: -4em;
+}
+
+.lower-bar-container {
+  margin: auto;
+  display: flex;
+  width: 30%;
+  text-align: center;
+}
+
+.lower-tab {
+  font-size: large;
+  font-family: 'Koulen', cursive;
+  margin: auto;
+  padding: 0.2em;
+}
+
+.lower-bar-container button {
+  border: none;
+  padding: 5px 30px;
+  color: white;
+  background-color:rgb(47, 41, 77);
+  border-radius: 5px;
+}
+
+.lower-bar-container button:hover {
+  background-color:rgb(78, 67, 125);
+  cursor: pointer;
+}
+
+.lower-bar-container #photographer-name {
+  margin-left: -0.5em;
+  padding: 5px 30px;
+  background-color:rgb(47, 41, 77);
+}
+
+.no-results {
+  position: relative;
+  top: 5em;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-family: 'Koulen', cursive;
+  font-size: x-large;
+}

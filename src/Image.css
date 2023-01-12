@@ -1,0 +1,23 @@
+.image-div-default img {
+    width: 100%;
+}
+
+.image-div-hover img {
+    width: 100%;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.image-div-default {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5em;
+}
+
+.image-div-hover {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5em;
+}
